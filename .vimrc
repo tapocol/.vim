@@ -14,5 +14,4 @@ set nocompatible
 filetype plugin indent on
 set mouse=a
 set cursorline
-cd /home/craig/www
 
