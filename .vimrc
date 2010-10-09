@@ -14,4 +14,5 @@ set nocompatible
 filetype plugin indent on
 set mouse=a
 set cursorline
+au BufRead,BufNewFile *.svg set filetype=xml
 
