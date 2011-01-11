@@ -1,7 +1,8 @@
 set number
 syntax on
-set ts=3
-set shiftwidth=3
+set expandtab
+set ts=4
+set shiftwidth=4
 set showmode
 set showcmd
 set ruler<
