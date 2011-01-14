@@ -4,5 +4,5 @@ colorscheme lucius
 set list
 set listchars=tab:▸\ ,eol:¬
 
-noremap <c-f> :FufFile<CR>
-noremap <c-b> :FufBuffer<CR>
+noremap <c-F> :FufFile<CR>
+noremap <c-B> :FufBuffer<CR>
