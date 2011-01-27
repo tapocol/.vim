@@ -3,6 +3,7 @@ syntax on
 set expandtab
 set ts=4
 set shiftwidth=4
+set softtabstop=4
 set showmode
 set showcmd
 set ruler<
