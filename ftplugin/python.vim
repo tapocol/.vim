@@ -3,6 +3,8 @@
 " Maintainer:	Johannes Zellner <johannes@zellner.org>
 " Last Change:	Wed, 21 Apr 2004 13:13:08 CEST
 
+setlocal foldmethod=indent
+
 if exists("b:did_ftplugin") | finish | endif
 let b:did_ftplugin = 1
 
@@ -41,5 +43,3 @@ if has("gui_win32") && !exists("b:browsefilter")
     let b:browsefilter = "Python Files (*.py)\t*.py\n" .
 		       \ "All Files (*.*)\t*.*\n"
 endif
-
-setlocal foldmethod=indent
