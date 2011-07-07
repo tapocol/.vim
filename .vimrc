@@ -18,4 +18,5 @@ set mouse=a
 set cursorline
 au BufRead,BufNewFile *.svg set filetype=xml
 au BufRead,BufNewFile *.module set filetype=php
+let NERDTreeIgnore = ['\.pyc$']
 
