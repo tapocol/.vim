@@ -15,6 +15,9 @@ setlocal includeexpr=substitute(v:fname,'\\.','/','g')
 setlocal suffixesadd=.py
 setlocal comments-=:%
 setlocal commentstring=#%s
+setlocal ts=4
+setlocal shiftwidth=4
+setlocal softtabstop=4
 
 setlocal omnifunc=pythoncomplete#Complete
 
