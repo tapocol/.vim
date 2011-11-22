@@ -338,3 +338,11 @@ hi Visual           ctermfg=NONE            ctermbg=60
 hi VisualNOS        guifg=fg                                        gui=underline
 hi VisualNOS        ctermfg=fg                                      cterm=underline
 
+
+
+" Craig
+" -----
+" ColorColumn
+hi ColorColumn      ctermfg=NONE            ctermbg=red
+hi ColorColumn      guifg=NONE              guibg=#592929
+
