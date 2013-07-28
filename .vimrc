@@ -13,6 +13,7 @@ set hlsearch
 set showmatch
 set spelllang=en_us
 set nocompatible
+set nobackup
 filetype plugin indent on
 set mouse=a
 set cursorline
