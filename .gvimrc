@@ -1,5 +1,5 @@
 set guioptions-=T
-set guifont=Liberation\ Mono
+set guifont=Anonymous\ Pro:h12,Liberation\ Mono
 colorscheme lucius
 set list
 set listchars=tab:▸\ ,eol:¬
