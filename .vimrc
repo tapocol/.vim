@@ -14,11 +14,11 @@ set showmatch
 set spelllang=en_us
 set nocompatible
 set nobackup
+call pathogen#infect()
+syntax enable
 filetype plugin indent on
 set mouse=a
 set cursorline
-au BufRead,BufNewFile *.svg set filetype=xml
-au BufRead,BufNewFile *.module set filetype=php
 let NERDTreeIgnore = ['\.pyc$']
 if exists('+colorcolumn')
   set colorcolumn=80
