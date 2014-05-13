@@ -2,6 +2,7 @@ git clone git@github.com:craigjackson/.vim.git ~/.vim
 cd ~/.vim
 git submodule init
 git submodule update
-ln -s ~/.vim/.vimrc ~/.vimrc
-ln -s ~/.vim/.gvimrc ~/.gvimrc
+cd
+ln -s ~/.vim/.vimrc
+ln -s ~/.vim/.gvimrc
 
