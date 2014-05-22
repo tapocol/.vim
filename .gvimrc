@@ -1,6 +1,6 @@
 set guioptions-=T
 set guifont=Droid\ Sans\ Mono,Anonymous\ Pro,Liberation\ Mono
-colorscheme lucius
+colorscheme onyx
 set list
 set listchars=tab:▸\ ,eol:¬
 
