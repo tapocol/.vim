@@ -37,3 +37,6 @@
 [submodule "bundle/colorschemer"]
 	path = bundle/colorschemer
 	url = https://github.com/vim-scripts/colorschemer.git
+[submodule "bundle/onyx"]
+	path = bundle/onyx
+	url = https://github.com/craigjackson/onyx.git
