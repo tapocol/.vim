@@ -14,6 +14,7 @@ set showmatch
 set spelllang=en_us
 set nocompatible
 set nobackup
+set lz
 call pathogen#infect()
 syntax enable
 filetype plugin indent on
