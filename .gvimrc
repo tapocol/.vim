@@ -1,4 +1,4 @@
-set guioptions-=T
+set guioptions=cegmt
 set guifont=Droid\ Sans\ Mono,Anonymous\ Pro,Liberation\ Mono
 colorscheme onyx
 set list
