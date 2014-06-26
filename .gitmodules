@@ -40,3 +40,6 @@
 [submodule "bundle/onyx"]
 	path = bundle/onyx
 	url = https://github.com/craigjackson/onyx.git
+[submodule "bundle/vim-fontsize"]
+	path = bundle/vim-fontsize
+	url = https://github.com/drmikehenry/vim-fontsize.git

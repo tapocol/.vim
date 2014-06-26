@@ -16,6 +16,7 @@ set nocompatible
 set nobackup
 set lz
 call pathogen#infect()
+Helptags
 syntax enable
 filetype plugin indent on
 set mouse=a
