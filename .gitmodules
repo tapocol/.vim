@@ -43,3 +43,9 @@
 [submodule "bundle/vim-fontsize"]
 	path = bundle/vim-fontsize
 	url = https://github.com/drmikehenry/vim-fontsize.git
+[submodule "bundle/vim-jsx"]
+	path = bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
+[submodule "bundle/vim-javascript"]
+	path = bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
