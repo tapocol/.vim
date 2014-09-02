@@ -344,5 +344,5 @@ hi VisualNOS        ctermfg=fg                                      cterm=underl
 " -----
 " ColorColumn
 hi ColorColumn      ctermfg=NONE            ctermbg=red
-hi ColorColumn      guifg=NONE              guibg=#592929
+hi ColorColumn      guifg=NONE              guibg=#572828
 
