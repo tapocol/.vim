@@ -1,5 +1,5 @@
 " Vim color file
-" Maintainer:   Jonathan Filip <jfilip1024@gmail.com>
+" Maintainer:   Craigerz
 " Last Modified: Wed Apr 01, 2009  10:03AM
 " Version: 2.5
 "
