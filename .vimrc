@@ -14,6 +14,7 @@ set spelllang=en_us
 set nocompatible
 set nobackup
 set lz
+set encoding=utf-8
 call pathogen#infect()
 Helptags
 syntax enable
@@ -31,3 +32,4 @@ let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
 let g:go_oracle_scope = $GOPATH
+nnoremap <C-S> :w<CR>
