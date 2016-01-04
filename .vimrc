@@ -35,3 +35,4 @@ let g:go_oracle_scope = $GOPATH
 nnoremap <C-S> :w<CR>
 au FileType ruby setl expandtab
 au FileType js setl expandtab
+au FileType jsx setl expandtab
