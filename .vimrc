@@ -1,5 +1,6 @@
 set number
 syntax on
+set expandtab
 set ts=2
 set shiftwidth=2
 set softtabstop=2
@@ -33,5 +34,4 @@ let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
 let g:go_oracle_scope = $GOPATH
 nnoremap <C-S> :w<CR>
-au FileType ruby setl expandtab
-au FileType javascript setl expandtab
+au FileType go setl noexpandtab
