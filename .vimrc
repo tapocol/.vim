@@ -34,5 +34,7 @@ let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
 let g:go_oracle_scope = $GOPATH
 let g:go_metalinter_autosave = 1
+let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
+let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
 nnoremap <C-S> :w<CR>
 au FileType go setl noexpandtab
