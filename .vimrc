@@ -31,7 +31,7 @@ endif
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
-let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
+let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -U -g ""'
 let g:go_oracle_scope = $GOPATH
 let g:go_metalinter_autosave = 1
 let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
