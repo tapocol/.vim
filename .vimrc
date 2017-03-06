@@ -42,3 +42,4 @@ let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
 nnoremap <C-S> :w<CR>
 au FileType go setl noexpandtab
 au FileType sql setl noexpandtab
+au FileType jsx setl expandtab
