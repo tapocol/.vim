@@ -1,5 +1,5 @@
-set guioptions=cegmt
-set guifont=Roboto\ Mono\ Regular\ 12,Droid\ Sans\ Mono\ 12,Anonymous\ Pro\ 12,Liberation\ Mono\ 12
+set guioptions=ace
+set guifont=Roboto\ Mono\ Regular\ 14,Droid\ Sans\ Mono\ 12,Anonymous\ Pro\ 12,Liberation\ Mono\ 12
 colorscheme onyx
 set list
 set listchars=tab:▸\ ,eol:¬
