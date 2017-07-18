@@ -31,14 +31,24 @@ endif
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
-let g:ctrlp_user_command = 'ag %s -l --ignore node_modules --ignore .git --nocolor --hidden -U -g ""'
-let g:go_oracle_scope = $GOPATH
+let g:ctrlp_user_command = 'ag %s -l --ignore node_modules --ignore .git --ignore vendor --nocolor --hidden -U -g ""'
+let g:neocomplete#enable_at_startup = 1
+
 let g:go_metalinter_autosave = 1
-let g:syntastic_go_checkers = []
-let g:go_metalinter_enabled = ['vet', 'golint', 'go']
 let g:go_metalinter_deadline = "5s"
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_extra_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_types = 1
+let g:go_auto_sameids = 1
+let g:go_auto_type_info = 1
+
 let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
+
 nnoremap <C-S> :w<CR>
 au FileType go setl noexpandtab
 au FileType sql setl noexpandtab

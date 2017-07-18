@@ -64,3 +64,6 @@
 [submodule "bundle/rust.vim"]
 	path = bundle/rust.vim
 	url = git@github.com:rust-lang/rust.vim.git
+[submodule "bundle/neocomplete.vim"]
+	path = bundle/neocomplete.vim
+	url = git@github.com:Shougo/neocomplete.vim.git
