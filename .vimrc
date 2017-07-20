@@ -31,7 +31,7 @@ endif
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
-let g:ctrlp_user_command = 'ag %s -l --ignore node_modules --ignore .git --ignore vendor --nocolor --hidden -U -g ""'
+let g:ctrlp_user_command = 'ag %s -l --ignore node_modules --ignore .git --ignore vendor --ignore tmp --nocolor --hidden -U -g ""'
 let g:neocomplete#enable_at_startup = 1
 
 let g:go_metalinter_autosave = 1
@@ -44,8 +44,9 @@ let g:go_highlight_methods = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_structs = 1
 let g:go_highlight_types = 1
-let g:go_auto_sameids = 1
-let g:go_auto_type_info = 1
+au Filetype go noremap <leader>gs :GoSameIds<CR>
+au Filetype go noremap <leader>gc :GoSameIdsClear<CR>
+au Filetype go noremap <leader>gt :GoInfo<CR>
 
 let g:syntastic_javascript_checkers = ['eslint']
 
