@@ -67,3 +67,6 @@
 [submodule "bundle/neocomplete.vim"]
 	path = bundle/neocomplete.vim
 	url = git@github.com:Shougo/neocomplete.vim.git
+[submodule "bundle/syntastic-local-eslint.vim"]
+	path = bundle/syntastic-local-eslint.vim
+	url = git@github.com:mtscout6/syntastic-local-eslint.vim.git
