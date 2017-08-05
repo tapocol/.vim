@@ -10,12 +10,14 @@ set ruler<
 set autoindent
 set smartindent
 set hlsearch
+set incsearch
 set showmatch
 set spelllang=en_us
 set nocompatible
 set nobackup
 set lz
 set encoding=utf-8
+set wildmenu
 call pathogen#infect()
 Helptags
 syntax enable
