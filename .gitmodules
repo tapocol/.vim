@@ -10,9 +10,6 @@
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
 [submodule "bundle/tlib_vim"]
 	path = bundle/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
@@ -40,9 +37,6 @@
 [submodule "bundle/onyx"]
 	path = bundle/onyx
 	url = https://github.com/craigjackson/onyx.git
-[submodule "bundle/vim-fontsize"]
-	path = bundle/vim-fontsize
-	url = https://github.com/drmikehenry/vim-fontsize.git
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
@@ -64,9 +58,12 @@
 [submodule "bundle/rust.vim"]
 	path = bundle/rust.vim
 	url = git@github.com:rust-lang/rust.vim.git
-[submodule "bundle/neocomplete.vim"]
-	path = bundle/neocomplete.vim
-	url = git@github.com:Shougo/neocomplete.vim.git
-[submodule "bundle/syntastic-local-eslint.vim"]
-	path = bundle/syntastic-local-eslint.vim
-	url = git@github.com:mtscout6/syntastic-local-eslint.vim.git
+[submodule "bundle/ale.git"]
+	path = bundle/ale.git
+	url = https://github.com/w0rp/ale.git
+[submodule "bundle/deoplete.nvim"]
+	path = bundle/deoplete.nvim
+	url = https://github.com/Shougo/deoplete.nvim
+[submodule "bundle/deoplete-go"]
+	path = bundle/deoplete-go
+	url = https://github.com/zchee/deoplete-go
