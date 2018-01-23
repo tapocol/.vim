@@ -1,1 +1,1 @@
-    bash <(curl -s https://raw.githubusercontent.com/craigjackson/.vim/master/curl.sh)
+    bash <(curl -s https://raw.githubusercontent.com/tapocol/.vim/master/curl.sh)
