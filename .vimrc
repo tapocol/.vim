@@ -18,6 +18,7 @@ set nobackup
 set lz
 set encoding=utf-8
 set wildmenu
+set directory=$HOME/.vim/swapfiles//
 call pathogen#infect()
 Helptags
 syntax enable
