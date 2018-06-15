@@ -57,5 +57,6 @@ au Filetype go noremap <leader>gt :GoInfo<CR>
 
 nnoremap <C-S> :w<CR>
 au FileType go setl noexpandtab
-au FileType sql setl noexpandtab
 au FileType jsx setl expandtab
+au FileType sql setl expandtab
+au FileType tf setl noexpandtab

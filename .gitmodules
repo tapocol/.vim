@@ -22,12 +22,6 @@
 [submodule "bundle/onyx"]
 	path = bundle/onyx
 	url = https://github.com/craigjackson/onyx.git
-[submodule "bundle/vim-jsx"]
-	path = bundle/vim-jsx
-	url = https://github.com/mxw/vim-jsx.git
-[submodule "bundle/vim-javascript"]
-	path = bundle/vim-javascript
-	url = https://github.com/pangloss/vim-javascript.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = git@github.com:godlygeek/tabular.git
@@ -52,3 +46,6 @@
 [submodule "bundle/deoplete-go"]
 	path = bundle/deoplete-go
 	url = https://github.com/zchee/deoplete-go
+[submodule "bundle/vim-jsx-improve"]
+	path = bundle/vim-jsx-improve
+	url = https://github.com/neoclide/vim-jsx-improve.git
