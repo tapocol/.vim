@@ -51,6 +51,7 @@ let g:go_highlight_methods = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_structs = 1
 let g:go_highlight_types = 1
+au Filetype go noremap <leader>gd :GoDef<CR>
 au Filetype go noremap <leader>gs :GoSameIds<CR>
 au Filetype go noremap <leader>gc :GoSameIdsClear<CR>
 au Filetype go noremap <leader>gt :GoInfo<CR>
